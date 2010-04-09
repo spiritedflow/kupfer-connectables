@@ -1,0 +1,7 @@
+type: command
+name: Remote Desktop
+descr: Connect using Remote Desktop Protocol
+rank: 100
+icon_name: gnome-remote-desktop
+cmd: rdesktop -g 1200x900 %(name)s
+

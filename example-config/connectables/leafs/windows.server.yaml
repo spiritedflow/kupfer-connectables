@@ -1,0 +1,6 @@
+cacti_id: 3
+icon_name: network-server
+actions:
+  - rdesktop
+  - cacti
+  - ping

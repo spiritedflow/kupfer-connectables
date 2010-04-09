@@ -1,0 +1,6 @@
+type: command
+name: Ping
+descr: Ping server
+icon_name: network-wired
+cmd: gnome-terminal -x ping %(name)s
+

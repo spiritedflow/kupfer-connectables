@@ -1,0 +1,7 @@
+locale: C
+descr: Router %(name)s
+icon_name: /home/art/.local/share/icons/Cisco.svg
+actions:
+  - telnet
+  - ping
+

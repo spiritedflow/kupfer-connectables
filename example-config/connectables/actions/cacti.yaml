@@ -1,0 +1,6 @@
+type: uri
+name: Cacti charts
+descr: View cacti charts for this host
+icon_name: web-browser
+uri: https://your-cacti-site/cacti/graph_view.php?action=tree&tree_id=6&leaf_id=%(cacti_id)d
+

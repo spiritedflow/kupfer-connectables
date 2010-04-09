@@ -1,0 +1,7 @@
+locale: ru_RU.KOI8-R
+cacti_id: 2
+icon_name: network-server
+actions:
+  - ssh
+  - cacti
+  - ping

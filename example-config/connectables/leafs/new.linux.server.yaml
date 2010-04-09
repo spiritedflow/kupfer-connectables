@@ -1,0 +1,7 @@
+locale: en_EN.UTF-8
+cacti_id: 1
+icon_name: network-server
+actions:
+  - ssh
+  - cacti
+  - ping
