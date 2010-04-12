@@ -1,7 +1,6 @@
 type: command
 name: Telnet
 descr: Connect using Telnet
-rank: 100
 icon_name: terminal
 cmd: env LANG=%(locale)s gnome-terminal --geometry 140x50 --disable-factory -x telnet %(name)s
 

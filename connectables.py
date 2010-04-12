@@ -145,7 +145,6 @@ class ConnectableAction (Action):
 			'type': 'unkwnon',
 			'name': 'Unknown',
 			'descr': 'Seems an action file ' + name + '.yaml is missed',
-			'rank': 20,
 			'icon_name': 'system-run',
 			'env': {},
 		}
@@ -160,10 +159,6 @@ class ConnectableAction (Action):
 
 	def get_icon_name(self):
 		return self.data['icon_name']
-
-	def get_rank(self):
-		print 'Getting rank'
-		return self.data['rank']
 
 
 def substitute(s, data):
