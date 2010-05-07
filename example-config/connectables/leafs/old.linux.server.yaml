@@ -3,5 +3,6 @@ cacti_id: 2
 icon_name: network-server
 actions:
   - ssh
+  - telnet
   - cacti
   - ping

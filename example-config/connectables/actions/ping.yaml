@@ -1,6 +1,7 @@
 type: command
 name: Ping
 descr: Ping server
+rank: -5
 icon_name: network-wired
 cmd: gnome-terminal -x ping %(name)s
 

@@ -138,6 +138,7 @@ class ConnectableAction (Action):
 	
 	Do what described in ~/.config/kupfer/connectables/actions/<action>.yaml
 	"""
+
 	def __init__(self, name, object):
 		self.name = name
 		self.object = object
@@ -147,8 +148,10 @@ class ConnectableAction (Action):
 			'descr': 'Seems an action file ' + name + '.yaml is missed',
 			'icon_name': 'system-run',
 			'env': {},
+			'rank': 0,
 		}
 		self.data.update(actions_cache.get_data (name))
+		self.rank_adjust = self.data['rank']
 		Action.__init__(self, self.data['name'])
 
 	def activate (self, leaf):
