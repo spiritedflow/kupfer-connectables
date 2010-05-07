@@ -20,7 +20,7 @@ from kupfer import utils
 
 __kupfer_name__ = _("Connectables")
 __kupfer_sources__ = ("ConnectableSource", )
-__description__ = _("All connectable devices. You need to configure this plugin manually. See example <here>")
+__description__ = _("Access to servers, routers, switches and other connectable devices. You need to configure this plugin manually. See README in example-config directory")
 __version__ = "0.1"
 __author__ = "Artem <spiritedflow@gmail.com>"
 
